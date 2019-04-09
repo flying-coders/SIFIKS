@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Doctor;
 use Illuminate\Database\Eloquent\Model;
 
 class Articles extends Model
@@ -29,20 +30,25 @@ class Articles extends Model
         'updated_at'
     ];
 
-//    /**
-//     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-//     */
-    public function admin()
-    {
-        return $this->belongsTo('App\Admin', 'admin_id', 'id');
-    }
-
     /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     * @param $id
+     * @return array
      */
-    public function doctor()
-    {
-        return $this->belongsTo('App\Doctor', 'doctor_id', 'id');
+    public function writer() {
+        $adminId = $this->getAttributeValue('admin_id');
+        $doctorId = $this->getAttributeValue('doctor_id');
+
+        $writer = ['role', 'data'];
+
+        if($adminId != null) {
+            $writer['role'] = "Admin";
+            $writer['data'] = Admin::find($adminId);
+        } elseif($doctorId != null) {
+            $writer['role'] = "Dokter";
+            $writer['data'] = Doctor::find($doctorId);
+        }
+
+        return $writer;
     }
 
     /**

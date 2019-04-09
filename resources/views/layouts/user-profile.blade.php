@@ -75,12 +75,22 @@
                             <li class="list-group-item">
                                 <a href="{{ route('user.profile.edit', ['id' => $data['user']->id]) }}">Edit Profil</a>
                             </li>
-                            <li class="list-group-item" title="{{ $data['user']->provider_id != null ? 'Anda terdaftar melalui Google.' : '' }}">
+                            <li class="list-group-item">
                                 @if($data['user']->provider_id == null)
                                     <a href="{{ route('user.password.edit', ['id' => $data['user']->id]) }}">Ubah Password</a>
                                 @else
-                                    <span class="text-muted">Ubah Password</span>
-                                    <i class="fab fa-google fa-pull-right mt-1 text-muted"></i>
+                                    <div
+                                    @if($data['user']->provider == "google")
+                                        title="{{ __('Anda terdaftar melalui Google') }}"
+                                    @elseif($data['user']->provider == "twitter")
+                                        title="{{ __('Anda terdaftar melalui Twitter') }}"
+                                    @else
+                                        title="{{ __('Anda terdaftar melalui Facebook') }}"
+                                    @endif
+                                    >
+                                        <span class="text-muted">Ubah Password</span>
+                                        <i class="fab fa-{{ $data['user']->provider }} fa-pull-right fa-lg mt-1 text-muted"></i>
+                                    </div>
                                 @endif
                             </li>
                             <li class="list-group-item">

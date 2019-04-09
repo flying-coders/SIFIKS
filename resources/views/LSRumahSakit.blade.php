@@ -20,67 +20,67 @@
         <br>
         <h2 class="font-weight-bold">Cari Tindakan Medis</h2>
         <div class="row">
-                <div class="index-by-letter-button">
-                        <div class="index-by-letter">
-                          <ul class="menu-children">
-                            
-                                 <li class="index-item"><a href="/listhospital">Anak</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Bedah Plastik</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Bedah Tulang</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Bedah Umum</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital"">Estetik</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Gigi dan Mulut</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Ginjal</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Gizi Klinik</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Jantung dan Pembuluh Darah</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Kanker</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Kebidanan dan Kandungan</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Kedokteran Anestesi dan Terapi Intensif</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Kedokteran Umum</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Kejiwaan</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Kelenjar</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Kulit dan Kelamin</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Laboratorium Klinik</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Mata</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Paru-Paru</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Penyakit Dalam</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Psikologi</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Radiologi</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Rehabilitasi Medis</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Rematik dan Sendi</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital"">Saluran Kemih</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Saraf</a></li>
-                              
-                                 <li class="index-item"><a href="/listhospital">Sistem Pencernaan</a></li>
-                              
-                          </ul>
-                    </div>
+            <div class="index-by-letter-button">
+                <div class="index-by-letter">
+                    <ul class="menu-children">
+
+                    <li class="index-item"><a href="/listhospital">Anak</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Bedah Plastik</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Bedah Tulang</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Bedah Umum</a></li>
+
+                    <li class="index-item"><a href="/listhospital"">Estetik</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Gigi dan Mulut</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Ginjal</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Gizi Klinik</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Jantung dan Pembuluh Darah</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Kanker</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Kebidanan dan Kandungan</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Kedokteran Anestesi dan Terapi Intensif</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Kedokteran Umum</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Kejiwaan</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Kelenjar</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Kulit dan Kelamin</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Laboratorium Klinik</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Mata</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Paru-Paru</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Penyakit Dalam</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Psikologi</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Radiologi</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Rehabilitasi Medis</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Rematik dan Sendi</a></li>
+
+                    <li class="index-item"><a href="/listhospital"">Saluran Kemih</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Saraf</a></li>
+
+                    <li class="index-item"><a href="/listhospital">Sistem Pencernaan</a></li>
+
+                    </ul>
                 </div>
-        </div> 
+            </div>
+        </div>
     </div>
 @endsection

@@ -58,6 +58,18 @@ Route::get('/lihatsemuadokter', function() {
     return view('LSdoctor');
 });
 
+Route::get('/mainsearch-article', function() {
+    return view('MainSearchArt');
+});
+
+Route::get('/mainsearch-doctor', function() {
+    return view('MainSearchDoc');
+});
+
+Route::get('/mainsearch-hospital', function() {
+    return view('MainSearchHosp');
+});
+
 Route::get('/articles/{category}', 'ArticleController@listByCat')->name('list.articles');
 Route::get('/articles/{category}/{key}','ArticleController@listByName')->name('listName.articles');
 Route::post('/articles/{category}/{cari}','ArticleController@search')->name('cari.articles');

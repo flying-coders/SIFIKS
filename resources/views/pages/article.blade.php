@@ -60,13 +60,8 @@
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    @if($article->admin_id == null)
-                                                        <strong>(Dokter)</strong>
-                                                        <span>{{ $article->doctor->name }}</span>
-                                                    @else
-                                                        <strong>(Admin)</strong>
-                                                        <span>{{ $article->admin->name }}</span>
-                                                    @endif
+                                                    <strong>({{ $article->writer()['role'] }})</strong>
+                                                    {{ $article->writer()['data']->name }}
                                                 </td>
                                                 <td>{{ $article->created_at->format("d M Y") }}</td>
                                                 <td>{{ $article->updated_at->diffForHumans() }}</td>

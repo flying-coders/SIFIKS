@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
-@include('layouts.inc.navbar')
 @section('content')
+
+    @include('layouts.inc.navbar')
+
 <div class="container mt-4">
 		<div class="container">
             <div class="row col-md-12">

@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
-@include('layouts.inc.navbar')
-
 @section('content')
+
+    @include('layouts.inc.navbar')
+
     <div class="container-fluid">
 
         @include('layouts.inc.messages')
@@ -36,7 +37,7 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="{{ asset('storage/images/dokter.jpg') }}"  alt="Buah" class="img-fluid" >
                     <div class="card-body text-black-50">
-                        <h4>{{ $art->title }}</h4>
+                        <h4>{{ $art->trimStr($art->title) }}</h4>
                         <p class="card-text">{!! $art->cutStr($art->content) !!}</p>
                         <div class="d-flex justify-content-end align-items-center">
                             <small class="text-muted">{{$art->created_at->diffForHumans()}}</small>

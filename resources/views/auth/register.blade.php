@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
-@include('layouts.inc.navbar')
-
 @section('content')
+
+    @include('layouts.inc.navbar')
+
     <div class="row justify-content-center mt-5" style="margin-top:20px;">
         <div class="col-md-8">
             <form method="POST" action="{{ route('register') }}" autocomplete="off">

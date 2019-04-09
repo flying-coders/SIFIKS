@@ -1,7 +1,9 @@
 @extends('layouts.app')
-@include('layouts.inc.navbar')
 
 @section('content')
+
+    @include('layouts.inc.navbar')
+
 <hr>
 <div class="container">
     <div class="row">

@@ -2,9 +2,10 @@
     <link rel="stylesheet" href="{{ asset("bower_components/font-awesome/css/font-awesome.min.css") }}">
     <link rel="stylesheet" href="{{ asset("bower_components/admin-lte/dist/css/skins/_all-skins.min.css") }}">
     <link rel="stylesheet" href="{{ asset("bower_components/admin-lte/dist/css/AdminLTE.min.css") }}">
-@include('layouts.inc.navbar')
-
 @section('content')
+
+    @include('layouts.inc.navbar')
+
     <br>
     <div class="container">
         <div class="row">
